@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { CheckCircle, Sparkles } from 'lucide-react';
 import { Button } from './ui/button';
 import { BetaWaitlist } from './BetaWaitlist';
-import heroImage from '../assets/hero-woman.png';
+import heroImage from 'figma:asset/hero-woman.png';
 
 export function Hero() {
   return (
