@@ -23,6 +23,7 @@
      - Push changes to the `main` branch
      - The GitHub Actions workflow will automatically build and deploy your site
      - Your site will be available at `https://{username}.github.io/` (replace {username} with your GitHub username)
+     - Note: Since this is a special `{username}.github.io` repository, it deploys to the root domain without a path
 
   ### Manual Build
 
