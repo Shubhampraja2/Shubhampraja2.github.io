@@ -22,7 +22,7 @@
   2. **Deploy:**
      - Push changes to the `main` branch
      - The GitHub Actions workflow will automatically build and deploy your site
-     - Your site will be available at `https://shubhampraja2.github.io/`
+     - Your site will be available at `https://{username}.github.io/` (replace {username} with your GitHub username)
 
   ### Manual Build
 
