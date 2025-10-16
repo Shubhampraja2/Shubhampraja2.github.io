@@ -25,7 +25,16 @@
      - Your site will be available at `https://{username}.github.io/` (replace {username} with your GitHub username)
      - Note: Since this is a special `{username}.github.io` repository, it deploys to the root domain without a path
 
-  ### Manual Build
+  ### Custom Domain Setup
+
+This project supports custom domains. The CNAME file is located in the `public/` directory and will be automatically included in the build output.
+
+To change the custom domain:
+1. Edit `public/CNAME` file with your domain name
+2. Configure your domain's DNS settings to point to GitHub Pages
+3. Enable custom domain in repository Settings → Pages
+
+### Manual Build
 
   To build the project locally:
 
