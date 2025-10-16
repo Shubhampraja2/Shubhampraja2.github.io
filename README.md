@@ -27,7 +27,7 @@
 
   ### Custom Domain Setup
 
-This project supports custom domains. The CNAME file is located in the `public/` directory and will be automatically included in the build output.
+This project supports custom domains. The CNAME file is located in the `public/` directory and will be automatically included in the build output (Vite automatically copies files from the `public/` directory to `dist/` during build).
 
 To change the custom domain:
 1. Edit `public/CNAME` file with your domain name
